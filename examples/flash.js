@@ -1,4 +1,4 @@
-var LPD8806 = require('LPD8806');
+var LPD8806 = require('lpd8806-async');
 
 // npm install async
 var async = require("async");

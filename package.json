@@ -3,15 +3,15 @@
   "version": "0.2.2",
   "private": false,
   "dependencies": {
-    "spi": "*",
-    "color": "*"
+    "all": "0.0.0",
+    "pi-spi": "^1.0.1"
   },
   "description": "Non-blocking LPD8806 NodeJS general library",
   "main": "./lib/LPD8806",
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/muzzley/LPD8806-node"
+    "url": "https://github.com/Kauto/LPD8806-node"
   },
   "keywords": [
     "SPI",
@@ -23,9 +23,9 @@
     "Raspberry",
     "PI"
   ],
-  "author": "pmdroid, v0od0oChild",
-  "license": "MIT License",
+  "author": "pmdroid, v0od0oChild, Kauto",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/muzzley/LPD8806-node/issues"
+    "url": "https://github.com/Kauto/LPD8806-node/issues"
   }
 }

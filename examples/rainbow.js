@@ -1,4 +1,4 @@
-var LPD8806 = require('LPD8806');
+var LPD8806 = require('lpd8806-async');
 var ledCount = 96;
 var leds = new LPD8806(ledCount, '/dev/spidev1.0');
 
