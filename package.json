@@ -1,12 +1,11 @@
 {
-  "name": "lpd8806-async",
-  "version": "0.2.2",
+  "name": "lpd8806-promise",
+  "version": "1.0.0",
   "private": false,
   "dependencies": {
-    "all": "0.0.0",
-    "pi-spi": "^1.0.1"
+    "pi-spi": "^1.0.2"
   },
-  "description": "Non-blocking LPD8806 NodeJS general library",
+  "description": "Non-blocking promise based LPD8806 NodeJS general library",
   "main": "./lib/LPD8806",
   "devDependencies": {},
   "repository": {
@@ -14,6 +13,7 @@
     "url": "https://github.com/Kauto/LPD8806-node"
   },
   "keywords": [
+    "Promise",
     "SPI",
     "LED",
     "RGB",
